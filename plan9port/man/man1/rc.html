@@ -174,12 +174,14 @@
         
     </table>
     <tt><font size=+1>`{</font></tt><i>command</i><tt><font size=+1>}<br>
+    `</font></tt><i>split</i> <tt><font size=+1>{</font></tt><i>command</i><tt><font size=+1>}<br>
     </font></tt>
     <table border=0 cellpadding=0 cellspacing=0><tr height=2><td><tr><td width=20><td>
 
         <i>rc</i> executes the <i>command</i> and reads its standard output, splitting
         it into a list of arguments, using characters in <tt><font size=+1>$ifs</font></tt> as separators.
-        If <tt><font size=+1>$ifs</font></tt> is not otherwise set, its value is <tt><font size=+1>' \t\n'</font></tt>.<br>
+        If <tt><font size=+1>$ifs</font></tt> is not otherwise set, its value is <tt><font size=+1>' \t\n'</font></tt>. In the second
+        form of the command, split is used instead of <tt><font size=+1>$ifs</font></tt>.<br>
         
     </table>
     <tt><font size=+1>&lt;{</font></tt><i>command</i><tt><font size=+1>}<br>
